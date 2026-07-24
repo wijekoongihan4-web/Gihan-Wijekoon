@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gihan Wijekoon | Cyber Security Specialist</title>
+    <meta name="description" content="Professional portfolio of Gihan Wijekoon, Cyber Security student and enthusiast.">
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cyber-grid"></div>
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <nav>
+            <a href="#" class="logo"><span>[</span>GW<span>]</span>_</a>
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="mono">Initializing connection...</h2>
+                <h1>Gihan <span>Wijekoon</span></h1>
+                <h3 class="mono subtitle">CYBER SECURITY SPECIALIST // ETHICAL HACKER</h3>
+                <p>Passionate about securing digital landscapes. Pursuing my degree in Cyber Security and specializing
+                    in ethical hacking, network defense, and creating secure infrastructures.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Initiate_Contact</a>
+                    <a href="#projects" class="btn btn-alt">View_Intel</a>
+                </div>
+            </div>
+            <div class="hero-img-box">
+                <!-- Tech decorative circles -->
+                <div class="tech-circle" style="width: 440px; height: 440px; animation-duration: 40s;"></div>
+                <div class="tech-circle"
+                    style="width: 490px; height: 490px; animation-duration: 25s; animation-direction: reverse; border: 1px solid rgba(0,255,65,0.1);">
+                </div>
+                <div class="hero-img"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div style="width: 100%;">
+            <h2 class="section-title">Root/<span>About_Me</span></h2>
+            <div class="about-box">
+                <div class="terminal-header">
+                    <span class="terminal-dot dot-red"></span>
+                    <span class="terminal-dot dot-yellow"></span>
+                    <span class="terminal-dot dot-green"></span>
+                </div>
+                <div class="about-text mono">
+                    <p style="margin-bottom: 1rem;"><strong
+                            style="color: var(--primary-color);">admin@gw-system:~$</strong> cat about.txt</p>
+                    <p style="margin-bottom: 1rem;">I am an ambitious Cyber Security undergraduate dedicated to
+                        understanding the intricacies of digital security and cyber threats. My core focus spans across
+                        vulnerability assessment, cryptography, Linux system administration and penetration testing.</p>
+                    <p style="margin-bottom: 1rem;">I firmly believe in the power of ethical hacking to build robust
+                        defenses against emerging threats. Through proactive continuous learning and hands-on laboratory
+                        environments, I aim to secure critical infrastructure and protect sensitive data from malicious
+                        cyber actors.</p>
+                    <p><strong style="color: var(--primary-color);">Status:</strong> Learning, growing, and hacking the
+                        planet (ethically).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <div style="width: 100%;">
+            <h2 class="section-title">Sys/<span>Capabilities</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Network Security</h3>
+                    <p>Securing network architectures, firewalls, and traffic analysis.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h3>Ethical Hacking</h3>
+                    <p>Vulnerability assessment & Penetration testing methodologies.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Secure Coding</h3>
+                    <p>Python, Java, C++ and building natively secure applications.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-linux"></i>
+                    <h3>Linux OS</h3>
+                    <p>Advanced system administration & automated Bash scripting.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <div style="width: 100%;">
+            <h2 class="section-title">Sec/<span>Operations</span></h2>
+
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Packet Sniffer Built in Python</h3>
+                        <p>A custom network packet analyzer constructed to inspect TCP/UDP payloads and document
+                            potential network vulnerabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Networking</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Crypto-Vault App</h3>
+                        <p>An end-to-end encrypted messaging application prototype demonstrating symmetric and
+                            asymmetric encryption algorithms.</p>
+                        <div class="project-tags">
+                            <span class="tag">Cryptography</span>
+                            <span class="tag">JS</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fa-solid fa-bug"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Vulnerability Scanner</h3>
+                        <p>Automated script that runs against target IP addresses to discover open ports and match
+                            against known CVE databases.</p>
+                        <div class="project-tags">
+                            <span class="tag">Bash</span>
+                            <span class="tag">Nmap</span>
+                            <span class="tag">CVE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div style="width: 100%;">
+            <h2 class="section-title">Net/<span>Establish_Connection</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="mono" style="font-size: 1.5rem; margin-bottom: 2rem;">> System Ping</h3>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4 class="mono">Email</h4>
+                            <p style="color: var(--text-dim);">gihansameera181@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <div>
+                            <h4 class="mono">Location</h4>
+                            <p style="color: var(--text-dim);">Kandy,Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Incoming Identity [Name]" required>
+                    <input type="email" placeholder="Return Address [Email]" required>
+                    <textarea rows="5" placeholder="Transmit Payload [Message]" required></textarea>
+                    <button type="submit" class="btn">Send_Packet</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/wijekoongihan4-web" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gihan-wijekoon-3823a6416/?skipRedirect=true" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-terminal"></i></a>
+        </div>
+        <p class="mono" style="color: var(--text-dim); font-size: 0.9rem; line-height: 1.6;">
+            &copy; 2026 Gihan Wijekoon. All rights protected. <br>
+            Encrypted End-to-End Environment
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
